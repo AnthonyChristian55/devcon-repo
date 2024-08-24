@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Xbox</title> 
+<link rel= "stylesheet" href="homestyle2.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Navbar-->
+<div class="container">
+<div class="navbar">
+<div class="logo">
+<a href="1indexhome.html"><img src="images/hgames.png" alt="hgames" style="width:125px;height:75px;"></a>
+</div>
+<nav>
+<ul>
+<li><a href="1indexhome.html">Home</a></li>&nbsp;&nbsp;
+<li><a href="2ps.html">Playstation</a></li>&nbsp;&nbsp;
+<li><a href="3xbox.html">XBox</a></li>&nbsp;&nbsp;
+<li><a href="4nintendo.html">Nintendo</a></li>&nbsp;&nbsp;
+<li><a href="5payment.html">Order Status</a></li>&nbsp;&nbsp;
+</ul>
+<a href="5payment.html"><image src="images/cart.png" width="30px" height="30px"></a>
+<ul>
+<div class="login">
+<form>
+<li><label for="uname">Username:</label></li><input type="text" placeholder="userame" id="uname" name="uname">
+<li><label for="pword">Password:</label></li><input type="text" placeholder="password" id="pword" name="pword">
+<button class="button">Login</button>
+</div>
+</form>
+</ul>
+</div>
+</nav>
+</div>
+<!--Xbox Banner-->
+<div class="banner2">
+<img src="images/xboxbanner.png" alt="xboxbanner">
+</div>
+<br>
+<!--search bar-->
+<div class="container">
+<form action="https://www.google.com/" method="GET" class="form">
+<input type="search" placeholder="Search" class="search-field" />
+<button type="submit" class="search-button">
+<img src="images/glass.png">
+</button>
+</form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!--Xbox Games-->
+<div class="xboxgames">
+<div class="xboxcontainer">
+<div class="row">
+<div class="xboxcolumn1"><image src="images/forza1.jpg" alt="forza" style="width:140px;height:135px;">
+<p>Forza Horizon 5 - Xbox Series S/X</p>
+<p>P3,000<a href="5payment.html"><image src="images/addto.png" width="1px" height="1px"></a></p></div>
+<div class="xboxcolumn1"><image src="images/codx.png" alt="codv" style="width:140px;height:135px;">
+<p>Call of Duty: Vanguard - XBox Series S/X</p>
+<p>P3,500<a href="5payment.html"><image src="images/addto.png" width="1px" height="1px"></a></p></div>
+<div class="xboxcolumn1"><image src="images/fc6.jpg" alt="fc6" style="width:150px;height:160px;">
+<p>Far Cry 6 -</p>
+<p>XBox Series S/X</p>
+<p>P3,000<a href="5payment.html"><image src="images/addto.png" width="1px" height="1px"></a></p></div>
+<div class="xboxcolumn1"><image src="images/nbax.png" alt="nba">
+<p>NBA 2K22 -</p>
+<p>XBox Series S/X</p> 
+<p>P3,500<a href="5payment.html"><image src="images/addto.png" width="1px" height="1px"></a></p></div>
+<div class="xboxcolumn1"><image src="images/fifa.png" alt="fifa" style="width:150px;height:160px;">
+<p>FIFA 22 -</p>
+<p>XBox Series S/X</p>
+<p>P3,500<a href="5payment.html"><image src="images/addto.png" width="1px" height="1px"></a></p></div>
+</div>
+<div class="row">
+<div class="xboxcolumn1"><image src="images/rdr2.jpg" alt="rdr2" style="width:160px;height:185px;">
+<p>Red Dead Redemption 2 - XBox One</p>
+<p>P1,500<a href="5payment.html"><image src="images/addto.png" width="1px" height="1px"></a></p></div>
+<div class="xboxcolumn1"><image src="images/borderlands.png" alt="borderlands">
+<p>Borderlands 3 - XBox One</p>
+<p>P1,000<a href="5payment.html"><image src="images/addto.png" width="1px" height="1px"></a></p></div>
+<div class="xboxcolumn1"><image src="images/doom.jpg" alt="doom" style="width:175px;height:200px;">
+<p>Doom Eternal - XBox One</p>
+<p>P1,000<a href="5payment.html"><image src="images/addto.png" width="1px" height="1px"></a></p></div>
+<div class="xboxcolumn1"><image src="images/batman.png" alt="batman" style="width:160px;height:185px;">
+<p>Batman Arkham Knight -</p> 
+<p>XBox One</p> 
+<p>P1,000<a href="5payment.html"><image src="images/addto.png" width="1px" height="1px"></a></p></div>
+<div class="xboxcolumn1"><image src="images/re3.jpg" alt="re3">
+<p>Resident Evil 3 -</p> 
+<p>XBox One</p>
+<p>P1,500<a href="5payment.html"><image src="images/addto.png" width="1px" height="1px"></a></p></div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<!--Footer-->
+<div class="footer">
+<div class="container4">
+<div class="row">
+<div class="footercol1">
+<h4>Customer Service</h4>
+<ul>
+<li><a href="6aboutus.html"><font color="white">About Us</font></a></li>
+<li><a href="8contact.html"><font color="white">Contact Us</font></a></li>
+<li><a href="12payoptions.html"><font color="white">Payment Options</font></a></li>
+<li><a href="9delivery.html"><font color="white">Delivery Information</font></a></li>
+</ul>
+</div>
+<div class="footercol2">
+<h4>Store Policy</h4>
+<ul>
+<li><a href="7faqs.html"><font color="white">FAQs</font></a></li>
+<li><a href="10return.html"><font color="white">Return Policy</font></a></li>
+<li><a href="11terms.html"><font color="white">Terms and Conditions</font></a></li>
+<li><a href="13privacy.html"><font color="white">Privacy Policy</font></a></li>
+<li><a href="14cookies.html"><font color="white">Cookies Policy</font></a></li>
+</ul>
+</div>
+<div class="footercol3">
+<h4>Follow Us</h4>
+<ul>
+<li>Facebook</li>
+<li>Twitter</li>
+<li>Instagram</li>
+</ul>
+</div>
+<div class="footercol4">
+<h4><image src="images/care.png"></h4>
+</div>
+</div>
+<p class="copyright">Copyright 2021 - Hobby Games. All Rights Reserved.</p>
+</div>
+</div>
+</head>
+</html>

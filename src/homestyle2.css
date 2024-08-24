@@ -1,0 +1,435 @@
+*{
+	margin: 0px;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Roboto Slab', serif;
+}
+/*Navigation bar*/
+.navbar{
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	background: #E1E814;
+	height:100px;
+	width: 100%;
+}
+nav{
+	flex:1;
+	text-align: right;
+	
+}
+nav ul{
+	display: inline-block;
+	list-style-type:none;
+}
+nav ul li{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+p{
+	color: #227C16;
+}
+.container{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*login*/
+.login{
+	text-align: left;
+}
+.login button{
+  background-color: yellow;
+  border: none;
+  padding: 8px 30px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.login button:hover{
+	background: #563434;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  float:right;
+  margin-right: 10px;
+}
+.search-field {
+  padding: 10px 35px 10px 15px;
+  border-style: ridge;
+  border-radius: 100px;
+  outline: none;
+}
+/*home Banner*/
+.banner0 img{
+	 object-fit: cover;
+	 width: 100%;
+	 height:200px;
+}
+/*search*/
+.search-button {
+  border: none;
+  outline: none;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+/*featured*/
+.row{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.column2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.column2 img{
+	max-width: 100%;
+	padding: 50px;
+}
+.column2 h1{
+	font-size: 50px;
+	line-height: 60px;
+}
+.button{
+	display: inline-block;
+	background: red;
+	color: black;
+	border-radius: 30px;
+    outline: none;
+	padding: 8px 30px;
+	margin: 30px;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+.button:hover{
+	background: #563434;
+}
+h2{
+	text-align: center;
+	font-size: 50px;
+	line-height: 60px;
+}
+/*new releases*/
+.newreleases{
+	margin: 70px;
+}
+.column3{
+	flex-basis: 25px;
+	min-width: 200px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.column3 img{
+	width: 100%;
+	height: 100%;
+}
+.container2{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25x;
+	padding-right: 25px;
+}
+.container2 p{
+	color: red;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+.newreleases .column3{
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+.newreleases .column3:hover{
+transform: translateY(-10px);
+}
+/*best sellers*/
+h3{
+	text-align: center;
+	font-size: 50px;
+	line-height: 60px;
+}
+.bestsellers{
+	margin: 70px;
+}
+.column4{
+	flex-basis: 25px;
+	min-width: 200px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.column4 img{
+	width: 100%;
+	height: 100%;
+}
+.container3{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25x;
+	padding-right: 25px;
+}
+.container3 p{
+	color: red;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+.bestsellers .column4{
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+.bestsellers .column4:hover{
+transform: translateY(-10px);
+}
+/*Footer*/
+.footer{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+	text-align: center;
+}
+.footer h4{
+	color: #fff;
+	margin-bottom: 20 px;
+}
+.footer img{
+	width: 75%;
+	height: 75%;
+}
+.footer ul{
+  list-style-type: none;
+  padding: 0; 
+  margin: 0; 
+  color: white;
+}
+.footer:link .footer:visited{ 
+ text-decoration: none; 
+ color: white; 
+}
+.footer footcol1, .footer footcol2, .footer footcol3, .footer footcol4{
+	min-width: 250px
+	margin-bottom: 20px
+	text-align: center;
+	align-items: center;
+}
+.footer footcol1, .footer footcol2{
+	flex-basis: 12%;
+	text-align: center;
+}
+.copyright{
+	text-align: center;
+	color: #fff;
+}
+/*Playstation Banner*/
+.banner1 img{
+	 object-fit: cover;
+	 width: 100%;
+	 height:200px;
+}
+/*playsatation games*/
+.psgames{
+	margin-top: 0px;
+	margin-bottom:50px;
+}
+.pscolumn1{
+	flex-basis: 25px;
+	min-width: 200px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.pscolumn1 img{
+	width: 100%;
+	height: 100%;
+}
+.pscontainer{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25x;
+	padding-right: 25px;
+}
+.pscontainer p{
+	color: red;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+.psgames .pscolumn1{
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+.psgames .pscolumn1:hover{
+transform: translateY(-10px);
+}
+/*Xbox Banner*/
+.banner2 img{
+	 object-fit: cover;
+	 width: 100%;
+	 height:200px;
+}
+/*xbox games*/
+.xboxgames{
+	margin-top: 0px;
+	margin-bottom:50px;
+}
+.xboxcolumn1{
+	flex-basis: 25px;
+	min-width: 200px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.xboxcolumn1 img{
+	width: 100%;
+	height: 100%;
+}
+.xboxcontainer{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25x;
+	padding-right: 25px;
+}
+.xboxcontainer p{
+	color: red;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+.xboxgames .xboxcolumn1{
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+.xboxgames .xboxcolumn1:hover{
+transform: translateY(-10px);
+}
+/*Nintendo Banner*/
+.banner3 img{
+	 object-fit: cover;
+	 width: 100%;
+	 height:200px;
+}
+/*Nintendo games*/
+.ningames{
+	margin-top: 0px;
+	margin-bottom:50px;
+}
+.nincolumn1{
+	flex-basis: 25px;
+	min-width: 200px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.nincolumn1 img{
+	width: 100%;
+	height: 100%;
+}
+.nincontainer{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25x;
+	padding-right: 25px;
+}
+.nincontainer p{
+	color: red;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+.ningames .nincolumn1{
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+.ningames .nincolumn1:hover{
+transform: translateY(-10px);
+}
+/*Payment header*/
+h6{
+	text-align: center;
+	font-size:40px;
+}
+/*Payment info*/
+.paymentcontainer{
+  padding: 10px;
+  border: 5px;
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+.paymentcontainer p{
+	text-align: center;
+	color: black;
+}
+/*Payment logo*/
+.payment{
+	margin-top: 0px;
+	margin-bottom:50px;
+}
+.paymentcolumn1{
+	flex-basis: 25px;
+	min-width: 110px;
+	margin-bottom: 10px;
+}
+.paymentcolumn1 img{
+	width: 75%;
+	height: 75%;
+}
+.paymentcontainerlogo{
+	max-width: 600px;
+	max-height: 250px;
+	margin: auto;
+}
+/*Place order*/
+.order button{
+	display: inline-block;
+	background: black;
+	color: white;
+	border-radius: 30px;
+    outline: none;
+	padding: 8px 30px;
+	margin: 30px;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+.order button:hover{
+	background: #563434;
+}
+/*footer links style*/
+.uscolumn{
+	align-items: center;
+}
+.uscolumn h6{
+	color:black;
+	text-align: center;
+}
+.uscolumn p{
+	color:black;
+	text-align: center;
+}
+.uscolumnpic img{
+	max-width: 25%;
+	max-height: 25p%;
+}
